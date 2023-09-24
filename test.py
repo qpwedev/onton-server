@@ -6,8 +6,8 @@
 # url = 'http://localhost:3000/room'
 
 # body = {
-#     'name': 'test',
-#     'password': 'test',
+#     'name': 'PIZDENKA',
+#     'password': '777888',
 #     'admin_wallet': '0x1234567890123456789012345678901234567890',
 # }
 
@@ -19,10 +19,10 @@
 # import requests
 
 # # Make sure the URL is correct, it should be 'rooms' not 'room'
-# url = 'http://localhost:3000/room/1/member'
+# url = 'http://localhost:3000/room/6/member'
 
 # body = {
-#     'address': '0x1234567890123456789012345678901234567820',
+#     'address': '0x1234567890123456789012345678901234567827',
 # }
 
 # r = requests.post(url, json=body)
@@ -54,9 +54,12 @@
 
 # import requests
 
-# url = 'http://localhost:3000/room/password/:password/'
+# url = 'http://localhost:3000/room/password/777888/'
 
+# body = {
+#     'address': '0x1234567890123456789012345678901234567827',
+# }
 
-# r = requests.get(url,)
+# r = requests.post(url, json=body)
 
 # print(r.text)  # Prints the response body
